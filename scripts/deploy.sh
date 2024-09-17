@@ -13,7 +13,7 @@ echo "Deployment started ...[branch is $1]"
 # 本番環境(mainブランチ)
 if [ "$1" = "main" ]
 then
-    cd /var/www/vhosts/kotobum-back/backend/
+    cd /var/www/vhosts/kotobum-back/kotobum/
 fi
 
 # 開発環境(releaseブランチ)
