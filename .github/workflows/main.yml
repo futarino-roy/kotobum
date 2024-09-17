@@ -17,5 +17,5 @@ jobs:
         username: ${{ secrets.PROD_XSERVER_USER }}
         key: ${{ secrets.PROD_XSERVER_SECRET }}
         script: |
-          cd /var/www/vhosts/kotobum-back/kotobum-backend/
+          cd /var/www/vhosts/kotobum-back/kotobum/
           ./scripts/deploy.sh main
